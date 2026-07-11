@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Automation Exercise Complete Suite">
+ <test name="Authentication and Account Management">
+        <classes>
+            <class name="tests.Register_Happy_Scenario"/>
+            <class name="tests.Login_Happy_Scenario_"/>
+            <class name="tests.Login_Nagative_Scenario"/>
+        </classes>
+    </test>
+
+    <test name="Product Features">
+        <classes>
+            <class name="tests.SearchProduct"/>
+            <class name="tests.VerifyProductDetailsVisible"/>
+            <class name="tests.ViewCategoryProducts"/>
+            <class name="tests.ViewCartBrandProducts"/>
+        </classes>
+    </test>
+
+    <test name="Cart Operations">
+        <classes>
+            <class name="tests.AddToCart"/>
+            <class name="tests.VerifyProductQuantityInCart"/>
+            <class name="tests.RemoveProductsFromCart"/>
+            <class name="tests.SearchProductsAndVerifyCartAfterLogin"/>
+        </classes>
+    </test>
+
+    <test name="Checkout and Order Flows">
+        <classes>
+            <class name="tests.PlaceOrderLoginBeforeCheckout"/>
+            <class name="tests.PlaceOrderRegisterBeforeCheckout"/>
+            <class name="tests.PlaceOrderWithRegisterWhileCheckoutTest"/>
+        </classes>
+    </test>
+
+    <test name="Subscriptions and General Pages">
+        <classes>
+            <class name="tests.SubscriptionINHomePage"/>
+            <class name="tests.SubscriptionINCartPage"/>
+            <class name="tests.verifyTestCasesPage"/>
+        </classes>
+    </test>
+
+</suite>
