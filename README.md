@@ -26,7 +26,7 @@ This is a professional E-commerce Automation Testing Framework built to test the
 You can run the automation suite in two ways:
 
 ### 1. Via TestNG Suite (Recommended)
-Right-click on the `testng.xml` file in the root directory and select:
+Right-click on the `TestingSuite.xml` file in the root directory and select:
 `Run As` -> `TestNG Suite`
 
 ### 2. Via Maven Command Line
